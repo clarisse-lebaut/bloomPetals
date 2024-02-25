@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* --- HOME --- */
+
+.imagesA{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.format1{
+    width: 400px;
+    height: 290px;
+    border-radius: 50px;
+    object-fit: cover;
+    box-shadow: 5px -5px 10px rgb(207, 207, 207);
+}
+
+.imagesB{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.format2{
+    width: 400px;
+    height: 290px;
+    border-radius: 50px;
+    object-fit: cover;
+    box-shadow: 5px -5px 10px rgb(207, 207, 207);
+}
+
+
+/* --- HEADER ET BANDEAU EN HAUT DE PAGE --- */
+
+nav{
+    background: linear-gradient(#da82da,#8b1b82);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 5px -5px 10px rgb(207, 207, 207);
+    border-radius: 15px;
+}
+
+nav a{
+    color: black;
+    font-size: 25px;
+    font-family:'Indie Flower', verdana, sans-serif;
+    font-weight: bold;
+    text-decoration-line: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+nav a:hover{
+    color : blueviolet;
+    background-color: grey;
+}
+
+.bdr{
+    padding-bottom: 20x;
+}
+
+.tape{
+    border-radius: 10px;
+}
+
+.rechercher{
+    background: transparent
+}
+
+
+/* --- PPOUR AVOIR LES ELEMENTS QUI SONT EN BOITES 
+nav section{
+    display:flex; ---> permet d'imbriquer les boites dans les boites
+    flex-direction: row; --> donne les directions des boites
+    align-items: end; --> algine les differents items
+    justify-content: space-around; --> donne les espaces entre les differents items
+}
+--- */
+
+
+
+/* --- CORPS PRINCIPAL DE LA PAGE --- */
+/* --- TITRE DE LA PAGE + PRESENATION GENERAL DE L'ENTREPRISE --- */
+
+body{
+    background:radial-gradient(#ffcdff,#ffffe6);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.presentation h1{
+    color:black;
+    background:-webkit-radial-gradient(top, rgba(185, 14, 151, 0.736) 25%, rgb(251, 122, 122) 45%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-family: 'Indie Flower', verdana, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.presentation p{
+    color: black;
+    font-family: 'calibri', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+/* --- LES DIFFERENTS SERVICES PROPOSEES --- */
+
+.services{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+        /* --- détails des services --- */
+
+.service1{
+    background: linear-gradient(#cecedf, #efdff3);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-right: 15px;
+    width: 100%;
+    box-shadow: 5px -5px 10px rgb(207, 207, 207);
+}
+
+.service1 h4{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Indie Flower', verdana, sans-serif;
+    color:rgb(102, 57, 92);
+    margin-top: 10px;
+}
+
+.service1 p{
+    color: black;
+    font-family: 'calibri', Helvetica, sans-serif;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.service2{
+    background: linear-gradient(#cecedf, #efdff3);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    width: 100%;
+    box-shadow: 5px -5px 10px rgb(207, 207, 207);
+}
+
+.service2 h4{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Indie Flower', verdana, sans-serif;
+    color:rgb(102, 57, 92);
+    margin-top: 2px;
+}
+
+.service2 p{
+    color: black;
+    font-family: 'calibri', Helvetica, sans-serif;
+    text-align: center;
+}
+
+.service3{
+    background: linear-gradient(#cecedf, #efdff3);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    width: 100%;
+    box-shadow: 5px -5px 10px rgb(207, 207, 207);
+}
+
+.service3 h4{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Indie Flower', verdana, sans-serif;
+    color:rgb(102, 57, 92);
+    margin-top: 2px;
+}
+
+.service3 p{
+    color: black;
+    font-family: 'calibri', Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* --- BANDEAU EN PIED DE PAGE --- */
+
+
+footer{
+    background: linear-gradient(#da82da,#8b1b82);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px -5px 10px rgb(207, 207, 207);
+    border-radius: 15px;
+}
+
+footer a{
+    color : rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+footer a:hover{
+    color : blueviolet;
+    background-color: grey;
+}
+
+
+
+
+/* --- ONGLET ENGAGEMENTS --- */
+
+.engagements{
+    background-color: #ffcdff;
+    border-radius: 20px;
+    box-shadow: #cecedf;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 30%;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    box-shadow: #efdff3;
+}
+
+.engagements h3{
+    font-family: 'Indie Flower', verdana, sans-serif;
+    font-family: 'Indie Flower', verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px
+}
+
+.engagements p{
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    word-spacing: 10px;
+    font-family: arial;
+}
